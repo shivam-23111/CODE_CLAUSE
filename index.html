@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!---------------  ICONS --------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------  CSS  --------------------->
+    <link rel="stylesheet" href="style.css">
+    <title> Weather Web App</title>
+
+
+</head>
+
+<body>
+    <div class="app-main" id="parent">
+        <div class="header">
+            <h4>Check Weather</h4>
+        </div>
+
+        <div class="search_box">
+            <input type="text" placeholder="Enter a city name" id="city" autocomplete="off" />
+            <button id="searchbyip"> <i class="fa fa-location-arrow"></i></button>
+            <button id="search"><i class="fa fa-search"></i></button>
+
+        </div>
+        <div id="show"></div>
+    </div>
+    <div class="weather-body" id="weather-body">
+        <!-- weather-body will be append through JavaScript -->
+    </div>
+    </div>
+    <!---------------  SCRIPT  --------------------->
+    <script src="script.js"></script>
+</body>
+
+</html>
