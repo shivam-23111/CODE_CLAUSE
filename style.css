@@ -32,8 +32,8 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: #d8e6e9;
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    height: auto;
+    width: auto;
 }
 
 .search_box {
