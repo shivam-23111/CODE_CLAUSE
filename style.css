@@ -1,0 +1,178 @@
+/*-----------------  GOOGLE FONTS  -----------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+
+/*-----------------  VARIABLES  -----------------*/
+
+ :root {
+    /* Colors */
+    --orange-color: rgb(246, 99, 53);
+    --dark-color: rgb(27, 31, 41);
+    --border: rgba(255, 255, 255, 0.25);
+    --background: rgba(255, 255, 255, 0.1);
+    --box_shadow: rgba(3, 46, 87, 0.3);
+}
+
+html {
+    font-size: 11px;
+    /* Now 1rem = 10px */
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(night.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #d8e6e9;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.search_box {
+    background: rgba(255, 255, 255, 0.131);
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    backdrop-filter: blur(0.4rem) saturate(180%);
+    box-shadow: 0 1.8rem 3.7rem var(--box_shadow);
+    margin-top: 5rem;
+    text-align: center;
+    border: 2px solid green;
+}
+
+.search_box input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--dark-color);
+}
+
+.search_box input::placeholder {
+    color: var(--dark-color);
+}
+
+.search_box button {
+    border: 0;
+    border-radius: 50%;
+    background: var(--orange-color);
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+}
+
+.search_box .icon {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    color: var(--dark-color);
+}
+
+.error {
+    margin: 4rem 0 5rem 0;
+    color: var(--dark-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+#show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#show h2 {
+    color: var(--dark-color);
+    text-transform: uppercase;
+    letter-spacing: 0.18rem;
+    font-weight: 600;
+    font-size: 2.6rem;
+    margin: 3rem 0 2rem 0;
+}
+
+.app-main {
+    min-height: 10vh;
+    width: auto;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 15px;
+    background: #b115bf;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient( to top, #1e201e, #215d76);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( to top, #316e37, #1e5f7b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.location-deatils {
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 20px 0px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h4 {
+    color: #0f1326;
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.min-max {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.day_details {
+    padding: 20px;
+}
+
+.app-main>* {
+    margin-bottom: 20px;
+}
+
+.weather-body {
+    color: #fff;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: #eff1f3;
+    display: none;
+    background: linear-gradient( to top, #da1e4e, #e4603a);
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.weather {
+    margin-top: 25px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#weather-icon {
+    color: black;
+}
