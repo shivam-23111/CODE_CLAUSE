@@ -28,7 +28,7 @@
             background-image: url(night.jpg);
             background-position: center;
             background-size: cover;
-            width: 100%;
+            width: auto;
             height: 100vh;
             display: flex;
             align-items: center;
