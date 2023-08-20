@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url("night.jpg");
+    background-image: url("background.jpg");
     min-height: 92vh;
     overflow: auto;
     background-repeat: no-repeat;
