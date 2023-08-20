@@ -29,7 +29,7 @@
             background-position: center;
             background-size: cover;
             width: auto;
-            height: 100vh;
+            height: auto;
             display: flex;
             align-items: center;
             justify-content: center;
