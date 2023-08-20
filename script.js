@@ -35,7 +35,7 @@ function changeBg(status) {
     } else if (status === 'Drizzle') {
         document.body.style.backgroundImage = 'url(drizzle.jpg)';
     } else if (status === 'Mist' || status === 'Haze' || status === 'Fog') {
-        document.body.style.backgroundImage = 'url(mist.jpg)';
+        document.body.style.backgroundImage = 'url(rain-raining.gif)';
     } else {
         document.body.style.backgroundImage = 'url(bg.jpg)';
     }
