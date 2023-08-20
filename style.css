@@ -107,8 +107,8 @@ body {
 
 .app-main {
     min-height: 10vh;
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
     margin: 50px auto;
     padding: 20px;
     text-align: center;
@@ -151,7 +151,8 @@ body {
 }
 
 .app-main>* {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    margin-left: 20px;
 }
 
 .weather-body {
