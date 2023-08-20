@@ -33,11 +33,11 @@ function changeBg(status) {
     } else if (status === 'Thunderstorm') {
         document.body.style.backgroundImage = 'url(thunderstorm.gif)';
     } else if (status === 'Drizzle') {
-        document.body.style.backgroundImage = 'url(drizzle.jpg)';
+        document.body.style.backgroundImage = 'url(drizzle.gif)';
     } else if (status === 'Mist' || status === 'Haze' || status === 'Fog') {
-        document.body.style.backgroundImage = 'url(mist.jpg)';
+        document.body.style.backgroundImage = 'url(mist.gif)';
     } else {
-        document.body.style.backgroundImage = 'url(bg.jpg)';
+        document.body.style.backgroundImage = 'url(background.jpg)';
     }
 }
 //FETCHING THE CURRENT CITY NAME USING IP ADDRESS OF THE REQUESTOR FROM GEOAPIFY API 
