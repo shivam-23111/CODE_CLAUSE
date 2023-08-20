@@ -52,7 +52,7 @@ body {
 }
 
 .input-box {
-    width: 60%;
+    width: auto;
     background: azure;
     color: #e4603a;
     font-weight: 500;
