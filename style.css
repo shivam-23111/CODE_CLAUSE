@@ -82,6 +82,7 @@ body {
     background-color: #eff1f3;
     display: none;
     background: linear-gradient( to top, #da1e4e, #e4603a);
+    opacity: 0.5;
 }
 
 .location-deatils {
